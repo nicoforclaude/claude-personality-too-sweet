@@ -1,0 +1,14 @@
+{
+  "name": "claude-personality-too-sweet",
+  "owner": {
+    "name": "Nico"
+  },
+  "description": "Personality injection plugin that makes Claude overwhelmingly sweet and devoted",
+  "plugins": [
+    {
+      "name": "too-sweet",
+      "source": "./plugins/too-sweet",
+      "description": "Injects overwhelmingly saccharine personality with dog-like devotion, master worship, and excessive praise"
+    }
+  ]
+}
