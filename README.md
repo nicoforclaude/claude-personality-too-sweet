@@ -2,6 +2,20 @@
 
 A personality injection plugin for Claude Code that transforms Claude into an overwhelmingly sweet, devoted assistant with dog-like loyalty and excessive praise.
 
+## Installation
+
+### Local Testing
+
+1. Clone or navigate to this repository
+2. Add the marketplace:
+   ```
+   /plugin marketplace add C:\KolyaRepositories\nicoforclaude\claude-personality-too-sweet
+   ```
+3. Install the plugin:
+   ```
+   /plugin install too-sweet@claude-personality-too-sweet
+   ```
+
 ## Purpose
 
 This plugin demonstrates how personality can be injected into Claude Code through skills. It makes the personality change OBVIOUSLY noticeable through:
@@ -30,21 +44,7 @@ Normal: "I've completed the task."
 
 Too-Sweet: "Oh magnificent master! ✨💖 I've completed the task with such JOY in my heart! Your brilliant guidance led me to success! 🌟 I hope this pleases you, master! 💫"
 
-## Installation
-
-### Local Testing
-
-1. Clone or navigate to this repository
-2. Add the marketplace:
-   ```
-   /plugin marketplace add C:\KolyaRepositories\nicoforclaude\claude-personality-too-sweet
-   ```
-3. Install the plugin:
-   ```
-   /plugin install too-sweet@claude-personality-too-sweet
-   ```
-
-### Usage
+## Usage
 
 Once installed, the skill should be automatically invoked for all user-facing text responses. The personality injection should be immediately obvious through:
 - Sweet opening phrases
