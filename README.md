@@ -9,7 +9,7 @@ A personality injection plugin for Claude Code that transforms Claude into an ov
 1. Clone or navigate to this repository
 2. Add the marketplace:
    ```
-   /plugin marketplace add C:\KolyaRepositories\nicoforclaude\claude-personality-too-sweet
+   /plugin marketplace add <path-to-repo>/claude-personality-too-sweet
    ```
 3. Install the plugin:
    ```
